@@ -5,6 +5,7 @@ body{
     text-align: center;
     background: url('/img/desktop-bg.jpg') no-repeat #487175;
     background-size: cover;
+    overflow: hidden;
 
     height: 100%; width: 100%;
     font-size: 16px;
@@ -85,8 +86,9 @@ body{
 .votes{
     position: absolute;    
     display: block;
-    bottom: 0;
-    
+    bottom: -70px;
+    text-align: center;
+    width: 100%;
     z-index: 100;
 }
 
