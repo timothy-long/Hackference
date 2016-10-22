@@ -1,11 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce41072c-f164-4fce-8eff-8ec278b66fae" name="Default" comment="" />
+    <list default="true" id="ce41072c-f164-4fce-8eff-8ec278b66fae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_github_ben_manes_caffeine_caffeine_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_google_inject_extensions_guice_multibindings_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__com_google_inject_guice_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_codec_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_common_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_handler_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_transport_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_ratpack_ratpack_core_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_ratpack_ratpack_groovy_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_ratpack_ratpack_groovy_test_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_ratpack_ratpack_guice_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__io_ratpack_ratpack_test_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_javassist_javassist_3_19_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/libraries/Gradle__org_yaml_snakeyaml_1_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/modules/Ged or Bad.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/modules/Ged_or_Bad_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/modules/Ged_or_Bad_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/build/resources/main/StreamContainer.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/build/resources/main/ratpack.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/src/ratpack/StreamContainer.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/src/ratpack/ratpack.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/src/templates/websocket-sample.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/workspace.xml" />
+    </list>
     <ignored path="websockettest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$USER_HOME$/Developer/Hackference/Ged or Bad/src/.gradle/" />
-    <ignored path="$USER_HOME$/Developer/Hackference/Ged or Bad/src/build/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +75,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
-    <projectState path="$USER_HOME$/Developer/Hackference/Ged or Bad/src">
+    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
@@ -26,17 +83,75 @@
     <favorites_list name="websockettest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamContainer.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/StreamContainer.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ratpack.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$USER_HOME$/Developer/Hackference/Ged or Bad/src" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.13-bin/4xsgxlfjcxvrea7akf941nvc7/gradle-2.13" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.13-bin/4xsgxlfjcxvrea7akf941nvc7/gradle-2.13" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$USER_HOME$/Developer/Hackference/Ged or Bad/src" value="2.13" />
+        <entry key="$PROJECT_DIR$" value="2.13" />
       </map>
     </option>
     <option name="availableProjects">
@@ -45,14 +160,14 @@
           <key>
             <ExternalProjectPojo>
               <option name="name" value="Ged or Bad" />
-              <option name="path" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+              <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
                 <option name="name" value="Ged or Bad" />
-                <option name="path" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -61,191 +176,191 @@
     </option>
     <option name="availableTasks">
       <map>
-        <entry key="$USER_HOME$/Developer/Hackference/Ged or Bad/src">
+        <entry key="$PROJECT_DIR$">
           <value>
             <list>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'Ged or Bad'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'Ged or Bad'." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'Ged or Bad'." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a JVM application" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="run" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="configureRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="startScripts" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles the test Groovy source." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileTestGroovy" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of root project 'Ged or Bad'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles the main Groovy source." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileGroovy" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the project as a distribution as-is." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="installDist" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'Ged or Bad'." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the main distributions" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDist" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Groovydoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="groovydoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'Ged or Bad'." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="installApp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'Ged or Bad'." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Bundles the project as a distribution." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="distTar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Bundles the project as a distribution." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="distZip" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'Ged or Bad'." />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -253,14 +368,19 @@
         </entry>
       </map>
     </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2954276432000" />
+      </map>
+    </option>
     <option name="projectBuildClasspath">
       <map>
-        <entry key="$USER_HOME$/Developer/Hackference/Ged or Bad/src">
+        <entry key="$PROJECT_DIR$">
           <value>
             <ExternalProjectBuildClasspathPojo>
               <option name="modulesBuildClasspath">
                 <map>
-                  <entry key="$USER_HOME$/Developer/Hackference/Ged or Bad/src">
+                  <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
@@ -269,7 +389,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-gradle/1.4.2/a6de62c418d70e025e36d8618b357b08fd851709/ratpack-gradle-1.4.2.jar" />
                           </list>
                         </option>
-                        <option name="path" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+                        <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -339,8 +459,8 @@
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.13-bin/4xsgxlfjcxvrea7akf941nvc7/gradle-2.13/lib/plugins/gradle-testing-native-2.13.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.13-bin/4xsgxlfjcxvrea7akf941nvc7/gradle-2.13/lib/plugins/gradle-tooling-api-builders-2.13.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.13-bin/4xsgxlfjcxvrea7akf941nvc7/gradle-2.13/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/Developer/Hackference/Ged or Bad/src/buildSrc/src/main/java" />
-                  <option value="$USER_HOME$/Developer/Hackference/Ged or Bad/src/buildSrc/src/main/groovy" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -355,10 +475,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Developer/Hackference/Ged or Bad/src/build.gradle" />
-        <option value="$USER_HOME$/Developer/Hackference/Ged or Bad/src/settings.gradle" />
-        <option value="$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/templates/websocket-sample.html" />
-        <option value="$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/ratpack/ratpack.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/templates/websocket-sample.html" />
+        <option value="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
       </list>
     </option>
   </component>
@@ -366,7 +486,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -391,24 +511,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ged or Bad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ged or Bad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ged or Bad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ratpack" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Developer/Hackference/Ged-or-Bad/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ratpack" />
+    </key>
   </component>
   <component name="RunManager" selected="Groovy.ratpack">
     <configuration default="false" name="ratpack" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="Ged_or_Bad_main" />
-      <setting name="path" value="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/ratpack/ratpack.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/ratpack" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/ratpack" />
       <setting name="debug" value="false" />
       <method />
     </configuration>
@@ -478,7 +640,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -509,7 +671,7 @@
       <setting name="path" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
       <method />
     </configuration>
@@ -689,33 +851,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -738,7 +900,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/gradlew">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -746,15 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/templates/websocket-sample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
@@ -762,7 +924,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/StreamContainer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/StreamContainer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
@@ -781,19 +997,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/ratpack/ratpack.groovy">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Developer/Hackference/Ged or Bad/src/src/ratpack/StreamContainer.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

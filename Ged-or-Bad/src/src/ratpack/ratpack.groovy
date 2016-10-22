@@ -1,5 +1,6 @@
 import com.google.inject.Scopes
 import ratpack.form.Form
+import ratpack.groovy.template.TextTemplateModule
 import ratpack.websocket.WebSockets
 
 import static ratpack.groovy.Groovy.groovyTemplate
@@ -7,6 +8,7 @@ import static ratpack.groovy.Groovy.ratpack
 
 ratpack {
     bindings {
+        module TextTemplateModule
         binder { b ->
             b.bind(StreamContainer).in(Scopes.SINGLETON)
         }
