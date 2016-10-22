@@ -17,7 +17,7 @@
 
 <section class="wrapper">
     <section class="score big-label">
-        <span class="value">54<sup>%</sup></span>
+        <span class="value"><span id="value">0</span><sup>%</sup></span>
     </section>
     <section class="timer big-label">
         <span class="value" id="countdowntimer">10</span>
@@ -30,20 +30,11 @@
     </section>
 
     <section id="votes" class="votes">
-       <!-- <img src="/img/thumbs.png" />
-        <img src="/img/thumbs.png" />
-        <img src="/img/thumbs.png" />
-        <img src="/img/thumbs.png" />
-        <img src="/img/thumbs.png" />
-        <img src="/img/thumbs.png" />
-        <img src="/img/thumbs.png" />  -->
     </section>
 </section>
 
 
 <script>
-
-
     function three21(){
         // I can't get this to fucking work. 
         // it should give a 3..2..1 counter, and then 
@@ -73,7 +64,7 @@
 
         if(timeleft <= 0)
             clearInterval(downloadTimer);
-        },1000); */
+        },1000);
     };
 </script>
 

@@ -51,6 +51,7 @@ var thumbs = {};
 
 function updatePositions(positions) {
     var votesContainer = document.getElementById('votes');
+    var score = 0;
 
     for (var i = 0; i < positions.length; i++) {
         var position = positions[i];
@@ -72,15 +73,41 @@ function updatePositions(positions) {
         }
 
         // update rotation
-        //record.element.style.transform = 'rotate3d(' + position.alpha + ',' + position.beta + ',' + position.gamma + ', 0deg)';
-        record.element.style.transform = 'rotate3d(0, 0, 1, ' + position.gamma + 'deg)';
+        record.element.style.transform = 'rotate3d(0, 0, -1, ' + position.alpha + 'deg)';
 
         // calc score
+        if(position.alpha < 50)
+        {
+            score += 1;
+        }
+        else if(position.alpha < 110)
+        {
+            score += 0;
+        }
+        else if(position.alpha < 230)
+        {
+            score -= 1;
+        }
+        else if(position.alpha < 300)
+        {
+            score += 0;
+        }
+        else
+        {
+            score += 1;
+        }
+    }
+
+    if(positions.length > 0)
+    {
+        score += positions.length;
+        var percentage = Math.floor((100 / (positions.length * 2)) * score);
+
+        document.getElementById('value').innerHTML = percentage;
     }
 }
 
 function removeVoter(uid) {
-    console.log(uid);
     var record = thumbs[uid];
 
     if(record == undefined)

@@ -32,7 +32,12 @@ function connectWs() {
             return;
         }
 
-        console.log(e.alpha, e.beta, e.gamma);
+        if(e.alpha == null && e.beta == null && e.gamma == null)
+        {
+            return;
+        }
+
+        //console.log(e.alpha, e.beta, e.gamma);
 
         var data = {
             alpha: e.alpha,

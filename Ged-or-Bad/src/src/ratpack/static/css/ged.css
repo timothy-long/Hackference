@@ -110,16 +110,3 @@ body{
 .hacky-clear-because-i-cant-be-arsed-to-think-about-flexbox{
     clear: both;
 }
-
-/* Some 3d rotate samples https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d
-.votes img:nth-child(1){transform: rotate3d(0,0,0, 10deg);}
-.votes img:nth-child(2){transform: rotate3d(1,0,1, 10deg);}
-.votes img:nth-child(3){transform: rotate3d(0,1,0, 10deg);}
-.votes img:nth-child(4){transform: rotate3d(0,0,1, 10deg);}
-.votes img:nth-child(5){transform: rotate3d(1,1,0, 10deg);}
-.votes img:nth-child(6){transform: rotate3d(0,1,1, 10deg);}
-
-/* dummy CSS to show transitions */
-.votes img:hover{transform:rotate(172deg);}
-
-.votes img{transition: 0.4s all ease-in-out;}*/
