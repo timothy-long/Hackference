@@ -24,7 +24,7 @@ body{
     z-index: 10;
     text-align: center;
     
-    text-shadow: 4px 4px 6px #4e4848
+    text-shadow: 4px 4px 6px #4e4848;
 }
     .big-label .value{font-size: 10em;}
     .big-label .label{
@@ -83,8 +83,19 @@ body{
     padding: 5px 7px;
     z-index: 2;
 }
+.frame .count321{
+    font-size: 0;
+    display: none;
+}
 
 
+/* dummy CSS to show how 3..2..1 font will work */
+.frame.counting .count321{
+    display: block;
+    font-size: 17em;
+    color: #fc0;
+    text-shadow: 0 0 6px rgba(0,0,0,0.5)
+}
 
 .votes{
     position: absolute;    
@@ -108,6 +119,7 @@ body{
 .votes img:nth-child(5){transform: rotate3d(1,1,0, 10deg);}
 .votes img:nth-child(6){transform: rotate3d(0,1,1, 10deg);}
 
+/* dummy CSS to show transitions */
 .votes img:hover{transform:rotate(172deg);}
 
 .votes img{transition: 0.4s all ease-in-out;}*/
