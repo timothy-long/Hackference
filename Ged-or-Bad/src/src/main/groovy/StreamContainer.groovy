@@ -6,7 +6,6 @@ import ratpack.service.StartEvent
 import ratpack.stream.Streams
 
 import java.time.Duration
-import java.util.function.Function
 
 import static com.google.common.collect.Queues.newArrayDeque
 import static groovy.json.JsonOutput.toJson

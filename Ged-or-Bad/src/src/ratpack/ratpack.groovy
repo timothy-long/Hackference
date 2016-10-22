@@ -30,5 +30,8 @@ ratpack {
             ctx.response.status(202)
             ctx.response.send()
         }
+        files {
+            dir "static"
+        }
     }
 }
