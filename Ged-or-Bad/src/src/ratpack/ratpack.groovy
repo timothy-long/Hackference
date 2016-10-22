@@ -1,5 +1,7 @@
+import co.timlong.gedorbad.DeviceOrientationHandler
+import co.timlong.gedorbad.StreamContainer
+import co.timlong.gedorbad.VoterRegister
 import com.google.inject.Scopes
-import ratpack.form.Form
 import ratpack.groovy.template.TextTemplateModule
 import ratpack.websocket.WebSockets
 
@@ -11,24 +13,25 @@ ratpack {
         module TextTemplateModule
         binder { b ->
             b.bind(StreamContainer).in(Scopes.SINGLETON)
+            b.bind(VoterRegister).in(Scopes.SINGLETON)
         }
     }
     handlers {
         get {
             render groovyTemplate("websocket-sample.html")
         }
-        get("stream") { ctx ->
+        get("/stream/voter") { ctx ->
+            def voterRegister = ctx.get(VoterRegister)
+
+            // open receiving socket
+            WebSockets.websocket(ctx, new DeviceOrientationHandler(voterRegister))
+        }
+        get("/stream/view") { ctx ->
             def streamContainer = ctx.get(StreamContainer)
+
+            // open broadcast socket
             def stream = streamContainer.stream
             WebSockets.websocketBroadcast(ctx, stream)
-        }
-        post("stream") { ctx ->
-            def form = ctx.parse(Form)
-            def msg = form.msg as String
-            def streamContainer = ctx.get(StreamContainer)
-            streamContainer.publish(msg)
-            ctx.response.status(202)
-            ctx.response.send()
         }
         files {
             dir "static"

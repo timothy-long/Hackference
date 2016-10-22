@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce41072c-f164-4fce-8eff-8ec278b66fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/static/motion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Voter.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterRegister.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/templates/voter.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" afterPath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
     </list>
     <ignored path="websockettest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,18 +46,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="motion.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/static/motion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
+      <file leaf-file-name="websocket-sample.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamContainer.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <element signature="e#29#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ratpack.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -60,69 +100,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <file leaf-file-name="DeviceOrientationHandler.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamContainer.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ratpack.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="275">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#29#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="websocket-sample.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+      <file leaf-file-name="VoterRegister.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterRegister.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="26" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="300">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="motion.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ratpack/static/motion.html">
+      <file leaf-file-name="Voter.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Voter.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -463,11 +480,20 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/templates/websocket-sample.html" />
         <option value="$PROJECT_DIR$/src/ratpack/test.css" />
-        <option value="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy" />
         <option value="$PROJECT_DIR$/src/ratpack/static/test.css" />
         <option value="$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html" />
         <option value="$PROJECT_DIR$/src/ratpack/static/motion.html" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/ScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Voter.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterRegister.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy" />
+        <option value="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
       </list>
     </option>
   </component>
@@ -601,6 +627,10 @@
               <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gedorbad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -623,7 +653,7 @@
       <recent name="$PROJECT_DIR$/src/ratpack" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Gradle Run">
+  <component name="RunManager" selected="Groovy.ratpack">
     <configuration default="false" name="ratpack" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="Ged_or_Bad_main" />
       <setting name="path" value="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
@@ -1003,11 +1033,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#29#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,7 +1048,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1056,14 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1072,28 +1096,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-core/1.4.2/4a1d929bdbeb41bd27cbf0dcf125a1b6b6333d4c/ratpack-core-1.4.2-sources.jar!/ratpack/form/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-core/1.4.2/4a1d929bdbeb41bd27cbf0dcf125a1b6b6333d4c/ratpack-core-1.4.2-sources.jar!/ratpack/websocket/WebSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="270">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/static/motion.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#29#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Voter.groovy">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterRegister.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#29#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

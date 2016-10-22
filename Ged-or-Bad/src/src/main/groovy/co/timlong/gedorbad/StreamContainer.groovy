@@ -1,3 +1,5 @@
+package co.timlong.gedorbad
+
 import com.google.inject.Inject
 import org.reactivestreams.Publisher
 import ratpack.exec.ExecController
