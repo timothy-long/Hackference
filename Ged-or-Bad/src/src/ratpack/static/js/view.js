@@ -47,10 +47,47 @@ function connectWs() {
 
 connectWs();
 
+var thumbs = {};
+
 function updatePositions(positions) {
-    console.log(positions[0].beta);
+    var votesContainer = document.getElementById('votes');
+
+    for (var i = 0; i < positions.length; i++) {
+        var position = positions[i];
+        var record = thumbs[position.uid];
+
+        if(record == undefined)
+        {
+            // new
+            var vote = document.createElement('img');
+            vote.setAttribute('src', '/img/thumbs.png')
+
+            votesContainer.appendChild(vote);
+
+            record = {
+                element: vote
+            };
+
+            thumbs[position.uid] = record;
+        }
+
+        // update rotation
+        //record.element.style.transform = 'rotate3d(' + position.alpha + ',' + position.beta + ',' + position.gamma + ', 0deg)';
+        record.element.style.transform = 'rotate3d(0, 0, 1, ' + position.gamma + 'deg)';
+
+        // calc score
+    }
 }
 
 function removeVoter(uid) {
     console.log(uid);
+    var record = thumbs[uid];
+
+    if(record == undefined)
+    {
+        return;
+    }
+
+    record.element.parentNode.removeChild(record.element);
+    delete thumbs[uid];
 }

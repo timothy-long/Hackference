@@ -100,7 +100,7 @@ body{
     clear: both;
 }
 
-/* Some 3d rotate samples https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d */
+/* Some 3d rotate samples https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d
 .votes img:nth-child(1){transform: rotate3d(0,0,0, 10deg);}
 .votes img:nth-child(2){transform: rotate3d(1,0,1, 10deg);}
 .votes img:nth-child(3){transform: rotate3d(0,1,0, 10deg);}
@@ -110,4 +110,4 @@ body{
 
 .votes img:hover{transform:rotate(172deg);}
 
-.votes img{transition: 0.4s all ease-in-out;}
+.votes img{transition: 0.4s all ease-in-out;}*/
