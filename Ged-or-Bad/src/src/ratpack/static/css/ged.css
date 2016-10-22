@@ -89,8 +89,9 @@ body{
 .votes{
     position: absolute;    
     display: block;
-    bottom: -70px;
+    bottom: -280px;
     text-align: center;
+    overflow: hidden;
     width: 100%;
     z-index: 100;
 }
@@ -106,3 +107,7 @@ body{
 .votes img:nth-child(4){transform: rotate3d(0,0,1, 10deg);}
 .votes img:nth-child(5){transform: rotate3d(1,1,0, 10deg);}
 .votes img:nth-child(6){transform: rotate3d(0,1,1, 10deg);}
+
+.votes img:hover{transform:rotate(172deg);}
+
+.votes img{transition: 0.4s all ease-in-out;}
