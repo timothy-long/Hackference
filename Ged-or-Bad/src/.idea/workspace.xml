@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce41072c-f164-4fce-8eff-8ec278b66fae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/StreamContainer.class" afterPath="$PROJECT_DIR$/build/classes/main/StreamContainer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="$PROJECT_DIR$/../../.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/static/motion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/static/test.css" afterPath="$PROJECT_DIR$/build/resources/main/static/test.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/static/test.css" afterPath="$PROJECT_DIR$/src/ratpack/static/test.css" />
     </list>
     <ignored path="websockettest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="websocket-sample.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="websocket-sample.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="262">
+              <caret line="26" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="motion.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/static/motion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -111,8 +115,8 @@
       <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -463,6 +467,7 @@
         <option value="$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy" />
         <option value="$PROJECT_DIR$/src/ratpack/static/test.css" />
         <option value="$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html" />
+        <option value="$PROJECT_DIR$/src/ratpack/static/motion.html" />
       </list>
     </option>
   </component>
@@ -925,7 +930,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -939,7 +944,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1045,8 +1050,8 @@
         <state relative-caret-position="320">
           <caret line="554" column="29" selection-start-line="554" selection-start-column="29" selection-end-line="554" selection-end-column="29" />
           <folding>
-            <element signature="e#23154#23155#0" expanded="true" />
-            <element signature="e#23195#23196#0" expanded="true" />
+            <element signature="e#23154#23155#0" expanded="false" />
+            <element signature="e#23195#23196#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1055,6 +1060,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1069,18 +1082,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="262">
+          <caret line="26" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/motion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
