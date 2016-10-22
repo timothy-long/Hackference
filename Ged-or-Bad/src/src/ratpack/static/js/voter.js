@@ -27,7 +27,12 @@ function connectWs() {
     };
 
     var onMotionHandler = function(e) {
-        console.log(e.alpha, e.beta, e.gamma);
+        if(window.ws.readyState != WebSocket.OPEN)
+        {
+            return;
+        }
+
+        //console.log(e.alpha, e.beta, e.gamma);
 
         var data = {
             alpha: e.alpha,

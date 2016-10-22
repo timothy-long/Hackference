@@ -30,7 +30,7 @@ class StreamContainer implements Service {
         } multicast()
     }
 
-    void publish(String msg) {
-        queue.push(msg)
+    void publish(Message msg) {
+        queue.push(toJson(msg))
     }
 }

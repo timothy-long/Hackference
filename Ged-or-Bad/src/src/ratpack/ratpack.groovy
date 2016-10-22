@@ -18,7 +18,7 @@ ratpack {
     }
     handlers {
         get {
-            render groovyTemplate("websocket-sample.html")
+            render groovyTemplate("view.html")
         }
         get("vote") {
             render groovyTemplate("voter.html")
