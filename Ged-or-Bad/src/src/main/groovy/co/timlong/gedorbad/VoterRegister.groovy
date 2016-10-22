@@ -1,5 +1,6 @@
 package co.timlong.gedorbad
 
+import groovy.util.logging.Slf4j
 import ratpack.websocket.WebSocket
 
 /**
@@ -8,7 +9,7 @@ import ratpack.websocket.WebSocket
 class VoterRegister {
     def voters = new HashMap<String, Voter>()
 
-    String registerVoter(WebSocket webSocket) {
+    Voter registerVoter(WebSocket webSocket) {
         def uid = UUID.randomUUID().toString()
         def voter = new Voter(uid, webSocket)
 

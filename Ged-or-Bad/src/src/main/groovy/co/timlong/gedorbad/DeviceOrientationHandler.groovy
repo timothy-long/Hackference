@@ -16,12 +16,13 @@ class DeviceOrientationHandler implements WebSocketHandler<String> {
     @Inject
     DeviceOrientationHandler(VoterRegister voterRegister)
     {
-        this.voterRegister = voterRegister;
+        this.voterRegister = voterRegister
     }
 
     @Override
     String onOpen(WebSocket webSocket) throws Exception {
-        voterUid = voterRegister.registerVoter(webSocket).getUid();
+        voterUid = voterRegister.registerVoter(webSocket).getUid()
+        return null
     }
 
     @Override

@@ -20,13 +20,16 @@ ratpack {
         get {
             render groovyTemplate("websocket-sample.html")
         }
-        get("/stream/voter") { ctx ->
+        get("vote") {
+            render groovyTemplate("voter.html")
+        }
+        get("stream/voter") { ctx ->
             def voterRegister = ctx.get(VoterRegister)
 
             // open receiving socket
             WebSockets.websocket(ctx, new DeviceOrientationHandler(voterRegister))
         }
-        get("/stream/view") { ctx ->
+        get("stream/view") { ctx ->
             def streamContainer = ctx.get(StreamContainer)
 
             // open broadcast socket
