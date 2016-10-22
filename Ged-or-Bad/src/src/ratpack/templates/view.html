@@ -19,13 +19,13 @@
     <section class="score big-label">
         <span class="value"><span id="value">0</span><sup>%</sup></span>
     </section>
-    <section class="timer big-label">
+    <section class="timer big-label e0">
         <span class="value" id="countdowntimer">10</span>
         <span class="label plural">seconds</span>
         <span class="label singular">second</span>
     </section>
 
-    <section class="frame">
+    <section id="frame" class="frame">
         <section class="count321" id="count321">3</section>
     </section>
 
@@ -35,37 +35,92 @@
 
 
 <script>
-    function three21(){
+    var images = [
+        '/carousel/01.jpg',
+        '/carousel/02.jpg',
+        '/carousel/03.jpg',
+        '/carousel/04.jpg',
+        '/carousel/05.jpg',
+        '/carousel/06.jpg',
+    ];
+
+    var currentImageIndex = -1;
+
+    document.getElementsByTagName('body')[0].addEventListener('click', function() {
+        currentImageIndex = -1;
+        loadNext();
+    });
+
+    function loadNext()
+    {
+        currentImageIndex++;
+        document.getElementById("frame").style.backgroundImage = 'none';
+
+        if(currentImageIndex >= images.length)
+        {
+            return;
+        }
+
+        three21();
+    }
+
+    function three21(onComplete){
         // I can't get this to fucking work. 
         // it should give a 3..2..1 counter, and then 
         // delete itself on 0. 
         // Passing the CSS class "counting" into the counter parent
         // will control show/hide.
         
-        var timeleft = 3;
+        var timeleft = 4;
         var threeTimer =  document.getElementById("count321");
-        var downloadTimer = setInterval(function(){
-            threeTimer.textContent = timeleft;
-            timeleft--;     
+
+        var counterFunction = function(){
+            timeleft--;
             threeTimer.parentNode.className = "frame counting";
 
             if(timeleft <= 0)
-                clearInterval(downloadTimer);                
-            },1000);                
+            {
+                threeTimer.parentNode.className = "frame";
+                clearInterval(downloadTimer);
+
+                document.getElementById("frame").style.backgroundImage = 'url(' + images[currentImageIndex] +')';
+                countdownFromTen();
+            }
+            else
+            {
+                threeTimer.textContent = timeleft;
+            }
         };
+
+        counterFunction();
+        var downloadTimer = setInterval(counterFunction,1000);
+    };
     
     function countdownFromTen(){
-        var timeleft = 10;
+        var timeleft = 11;
         var countdownTimer =  document.getElementById("countdowntimer");
-        var downloadTimer = setInterval(function(){
-        timeleft--;
-        countdownTimer.textContent = timeleft;
-        countdownTimer.parentNode.className = "timer big-label e" + timeleft;
 
-        if(timeleft <= 0)
-            clearInterval(downloadTimer);
-        },1000);
+        var counterFunction = function() {
+            timeleft--;
+            countdownTimer.textContent = timeleft;
+            countdownTimer.parentNode.className = "timer big-label e" + timeleft;
+
+            if(timeleft <= 0)
+            {
+                clearInterval(downloadTimer);
+                showResult();
+            }
+        };
+
+        counterFunction();
+        var downloadTimer = setInterval(counterFunction ,1000);
     };
+
+    function showResult() {
+        setTimeout(function() {
+            loadNext();
+        }, 5000);
+    }
 </script>
 
 <script src="/js/view.js"></script>

@@ -56,7 +56,7 @@ function updatePositions(positions) {
     for (var i = 0; i < positions.length; i++) {
         var position = positions[i];
         var record = thumbs[position.uid];
-
+        //console.log(position);
         if(record == undefined)
         {
             // new
@@ -72,8 +72,15 @@ function updatePositions(positions) {
             thumbs[position.uid] = record;
         }
 
+        if(position.beta > 90 || position.beta < -90)
+        {
+            position.alpha = -position.alpha;
+        }
+
         // update rotation
-        record.element.style.transform = 'rotate3d(0, 0, -1, ' + position.alpha + 'deg)';
+        //record.element.style.transform = 'rotateZ(' + -position.alpha + 'deg) rotateY(' + -position.gamma + 'deg) rotateX(' + (-position.beta + 90) + 'deg)';
+        //record.element.style.transform = 'rotateZ(' + -position.alpha + 'deg) rotateY(' + -position.gamma + 'deg)';
+        record.element.style.transform = 'rotateZ(' + -position.alpha + 'deg)';
 
         // calc score
         if(position.alpha < 50)

@@ -77,7 +77,7 @@ body{
     text-align: center;
     width: 55%;
     height: 400px;
-    background: url('/carousel/01.jpg') no-repeat  rgba(255,255,255,0.5);
+    background: no-repeat  rgba(255,255,255,0.5);
     background-size: cover;
     overflow: hidden; 
     padding: 5px 7px;
