@@ -26,7 +26,7 @@
     </section>
 
     <section class="frame">
-
+        <section class="count321" id="count321">3</section>
     </section>
 
     <section class="votes">
@@ -42,16 +42,39 @@
 
 
 <script>
-    /* var timeleft = 10;
-    var countdownTimer =  document.getElementById("countdowntimer");
-    var downloadTimer = setInterval(function(){
-    timeleft--;
-    countdownTimer.textContent = timeleft;
-    countdownTimer.parentNode.className = "timer big-label e" + timeleft;
 
-    if(timeleft <= 0)
-        clearInterval(downloadTimer);
-    },1000); */
+
+    function three21(){
+        // I can't get this to fucking work. 
+        // it should give a 3..2..1 counter, and then 
+        // delete itself on 0. 
+        // Passing the CSS class "counting" into the counter parent
+        // will control show/hide.
+        
+        var timeleft = 3;
+        var threeTimer =  document.getElementById("count321");
+        var downloadTimer = setInterval(function(){
+            threeTimer.textContent = timeleft;
+            timeleft--;     
+            threeTimer.parentNode.className = "frame counting";
+
+            if(timeleft <= 0)
+                clearInterval(downloadTimer);                
+            },1000);                
+        };
+    
+    function countdownFromTen(){
+        var timeleft = 10;
+        var countdownTimer =  document.getElementById("countdowntimer");
+        var downloadTimer = setInterval(function(){
+        timeleft--;
+        countdownTimer.textContent = timeleft;
+        countdownTimer.parentNode.className = "timer big-label e" + timeleft;
+
+        if(timeleft <= 0)
+            clearInterval(downloadTimer);
+        },1000); */
+    };
 </script>
 
 <script src="/js/view.js"></script>
