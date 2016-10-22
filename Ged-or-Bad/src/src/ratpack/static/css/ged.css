@@ -43,13 +43,32 @@ body{
         right: 10%;
         transform: rotate(10deg);
     }
+    
+    .timer .value{transition: all 0.3s linear;}
 
-.timer .value.e6{color: #fee}
-.timer .value.e5{color: #fbb}
-.timer .value.e4{color: #f99}
-.timer .value.e3{color: #f66}
-.timer .value.e2{color: #f33}
-.timer .value.e1{color: #f00}
+
+    .timer.e6 .value{color: #fee}
+        .timer.e6    {transform: rotate(9deg);}
+    .timer.e5 .value{color: #fbb; font-size: 11em}
+        .timer.e5    {transform: rotate(8deg);}
+    .timer.e4 .value{color: #f99; font-size: 12em}
+        .timer.e4    {transform: rotate(6deg);}  
+    .timer.e3 .value{color: #f66; font-size: 14em}
+        .timer.e3    {transform: rotate(4deg);}  
+    .timer.e2 .value{color: #f33; font-size: 16em}
+        .timer.e2    {transform: rotate(2deg);} 
+    .timer.e1 .value{color: #f00; font-size: 18em}
+        .timer.e1    {transform: rotate(0deg);}
+    
+        .timer.e0    {visibility: hidden;}
+
+    .timer.e3 .value,
+    .timer.e2 .value,
+    .timer.e1 .value{text-shadow: 3px 4px 0px #fff}
+
+    .timer .singular{display: none;}
+        .timer.e1 .plural{display: none}
+        .timer.e1 .singular{display: block}
 
 
 .frame{
@@ -74,3 +93,11 @@ body{
 .hacky-clear-because-i-cant-be-arsed-to-think-about-flexbox{
     clear: both;
 }
+
+/* Some 3d rotate samples https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d */
+.votes img:nth-child(1){transform: rotate3d(0,0,0, 10deg);}
+.votes img:nth-child(2){transform: rotate3d(1,0,1, 10deg);}
+.votes img:nth-child(3){transform: rotate3d(0,1,0, 10deg);}
+.votes img:nth-child(4){transform: rotate3d(0,0,1, 10deg);}
+.votes img:nth-child(5){transform: rotate3d(1,1,0, 10deg);}
+.votes img:nth-child(6){transform: rotate3d(0,1,1, 10deg);}
