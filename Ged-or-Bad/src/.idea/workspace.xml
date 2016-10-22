@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce41072c-f164-4fce-8eff-8ec278b66fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/static/test.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/StreamContainer.groovy" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ratpack/StreamContainer.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Ged or Bad/src/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/StreamContainer$_onStart_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/StreamContainer.class" afterPath="$PROJECT_DIR$/build/classes/main/StreamContainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="$PROJECT_DIR$/../../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/ratpack.groovy" afterPath="$PROJECT_DIR$/build/resources/main/ratpack.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" afterPath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/static/test.css" afterPath="$PROJECT_DIR$/build/resources/main/static/test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/static/test.css" afterPath="$PROJECT_DIR$/src/ratpack/static/test.css" />
     </list>
     <ignored path="websockettest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,6 +30,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="websockettest" />
@@ -75,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ratpack.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ratpack.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="240">
               <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -87,11 +98,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="websocket-sample.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -440,6 +461,8 @@
         <option value="$PROJECT_DIR$/src/ratpack/test.css" />
         <option value="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy" />
+        <option value="$PROJECT_DIR$/src/ratpack/static/test.css" />
+        <option value="$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html" />
       </list>
     </option>
   </component>
@@ -595,7 +618,7 @@
       <recent name="$PROJECT_DIR$/src/ratpack" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.ratpack">
+  <component name="RunManager" selected="Gradle.Gradle Run">
     <configuration default="false" name="ratpack" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="Ged_or_Bad_main" />
       <setting name="path" value="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
@@ -858,8 +881,28 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.ratpack" />
+    <configuration default="false" name="Gradle Run" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-t" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.Gradle Run" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.ratpack" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -882,7 +925,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -896,7 +939,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -981,14 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1016,14 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/StreamContainer.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1034,11 +1061,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="240">
           <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
