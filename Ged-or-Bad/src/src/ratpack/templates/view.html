@@ -45,8 +45,15 @@
     ];
 
     var currentImageIndex = -1;
+    var running = false;
 
     document.getElementsByTagName('body')[0].addEventListener('click', function() {
+        if(running == true)
+        {
+            return;
+        }
+
+        running = true;
         currentImageIndex = -1;
         loadNext();
     });
@@ -58,6 +65,7 @@
 
         if(currentImageIndex >= images.length)
         {
+            running = false;
             return;
         }
 

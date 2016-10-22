@@ -48,10 +48,18 @@ function connectWs() {
 connectWs();
 
 var thumbs = {};
+var thumbsSize = 0;
+
+var dummyThumb = document.createElement('img');
+dummyThumb.setAttribute('src', '/img/thumbs.png');
 
 function updatePositions(positions) {
     var votesContainer = document.getElementById('votes');
     var score = 0;
+
+    var bodyWidth = document.getElementsByTagName('body')[0].offsetWidth;
+    var innerWidth = document.getElementById('frame').offsetWidth;
+    var startPadding = (bodyWidth - innerWidth) / 2;
 
     for (var i = 0; i < positions.length; i++) {
         var position = positions[i];
@@ -60,8 +68,20 @@ function updatePositions(positions) {
         if(record == undefined)
         {
             // new
-            var vote = document.createElement('img');
-            vote.setAttribute('src', '/img/thumbs.png')
+            var vote = dummyThumb.cloneNode();
+
+            if(thumbsSize > 12)
+            {
+                vote.style.left = (Math.random() * bodyWidth) + "px";
+            }
+            else if(thumbsSize > 5)
+            {
+                vote.style.left = (startPadding + (Math.random() * innerWidth)) + "px";
+            }
+            else
+            {
+                vote.style.left = (startPadding + ((thumbsSize / 5) * innerWidth)) + "px";
+            }
 
             votesContainer.appendChild(vote);
 
@@ -69,6 +89,7 @@ function updatePositions(positions) {
                 element: vote
             };
 
+            thumbsSize++;
             thumbs[position.uid] = record;
         }
 
@@ -123,5 +144,6 @@ function removeVoter(uid) {
     }
 
     record.element.parentNode.removeChild(record.element);
+    thumbsSize--;
     delete thumbs[uid];
 }

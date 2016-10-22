@@ -102,10 +102,14 @@ body{
     display: block;
     bottom: -280px;
     text-align: center;
-    overflow: hidden;
     width: 100%;
     z-index: 100;
 }
+    .votes img{
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+    }
 
 .hacky-clear-because-i-cant-be-arsed-to-think-about-flexbox{
     clear: both;
