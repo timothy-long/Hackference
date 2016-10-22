@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ged or Bad.iml" filepath="$PROJECT_DIR$/.idea/modules/Ged or Bad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ged_or_Bad_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ged_or_Bad_main.iml" group="Ged or Bad" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ged_or_Bad_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Ged_or_Bad_test.iml" group="Ged or Bad" />
+    </modules>
+  </component>
+</project>
