@@ -2,6 +2,7 @@ package co.timlong.gedorbad
 
 import com.google.inject.Inject
 import org.reactivestreams.Publisher
+import org.reactivestreams.Subscriber
 import ratpack.exec.ExecController
 import ratpack.service.Service
 import ratpack.service.StartEvent
@@ -14,7 +15,7 @@ import static groovy.json.JsonOutput.toJson
 
 class StreamContainer implements Service {
     Publisher<String> stream
-    private final Deque<String> queue = newArrayDeque()
+    private final Deque<Message> queue = newArrayDeque()
     private final ExecController execController
 
     @Inject
@@ -23,14 +24,14 @@ class StreamContainer implements Service {
     }
 
     void onStart(StartEvent event) {
-        this.stream = Streams.periodically(event.getRegistry(), Duration.ofMillis(100), {
+        this.stream = Streams.periodically(event.getRegistry(), Duration.ofMillis(10), {
             queue.pollLast() ?: []
         }) map {
-            it ? toJson([message: it]) : ""
+            it ? toJson(it) : ""
         } multicast()
     }
 
     void publish(Message msg) {
-        queue.push(toJson(msg))
+        queue.push(msg)
     }
 }
