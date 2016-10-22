@@ -5,6 +5,7 @@ body{
     text-align: center;
     background: url('/img/desktop-bg.jpg') no-repeat #487175;
     background-size: cover;
+    overflow: hidden;
 
     height: 100%; width: 100%;
     font-size: 16px;
@@ -19,7 +20,6 @@ body{
 }
 .big-label{
     position: absolute;
-    top: 20px;
     color: #fff;
     z-index: 10;
     text-align: center;
@@ -36,7 +36,6 @@ body{
 
     .score{
         left: 12%;
-        top: 5%;
         transform: rotate(-15deg);
     }
     .timer{
@@ -74,19 +73,25 @@ body{
 .frame{
     position: relative;
     margin: 0 auto;
-    top: 9em;
-    text-align: left;
+    top: 7em;
+    text-align: center;
     width: 55%;
     height: 400px;
-    background: rgba(255,255,255,0.5);
-    
+    background: url('/carousel/01.jpg') no-repeat  rgba(255,255,255,0.5);
+    background-size: cover;
+    overflow: hidden; 
+    padding: 5px 7px;
     z-index: 2;
 }
+
+
+
 .votes{
     position: absolute;    
     display: block;
-    bottom: 0;
-    
+    bottom: -70px;
+    text-align: center;
+    width: 100%;
     z-index: 100;
 }
 

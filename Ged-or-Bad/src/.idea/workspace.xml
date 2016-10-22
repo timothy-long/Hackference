@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce41072c-f164-4fce-8eff-8ec278b66fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoteChangeMessage.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterPositionMessage.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterRemovedMessage.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/static/js/view.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html" afterPath="$PROJECT_DIR$/src/ratpack/templates/view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" afterPath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/static/js/voter.js" afterPath="$PROJECT_DIR$/src/ratpack/static/js/voter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/static/carousel/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ratpack/static/carousel/02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/static/img/desktop-bg.jpg" afterPath="$PROJECT_DIR$/src/ratpack/static/img/desktop-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/static/css/ged.css" afterPath="$PROJECT_DIR$/src/ratpack/static/css/ged.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/templates/view.html" afterPath="$PROJECT_DIR$/src/ratpack/templates/view.html" />
     </list>
     <ignored path="websockettest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ratpack/templates/view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="662">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -124,23 +119,13 @@
         <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="voter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/voter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceOrientationHandler.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeviceOrientationHandler.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -519,8 +504,8 @@
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterRemovedMessage.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterPositionMessage.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
-        <option value="$PROJECT_DIR$/src/ratpack/templates/view.html" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy" />
+        <option value="$PROJECT_DIR$/src/ratpack/templates/view.html" />
       </list>
     </option>
   </component>
@@ -1313,22 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoteChangeMessage.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1352,6 +1321,30 @@
           <folding>
             <element signature="e#29#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/websocket-sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="28" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
