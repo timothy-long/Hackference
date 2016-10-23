@@ -87,9 +87,10 @@ body{
 .frame{
     position: relative;
     margin: 0 auto;
-    top: 7em;
+    top: 15%;
     text-align: center;
     width: 55%;
+    min-width: 600px  ;  
     height: 400px;
     background: no-repeat  rgba(255,255,255,0.5);
     background-size: cover;

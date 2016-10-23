@@ -16,7 +16,7 @@
 <body>
 
 <section class="wrapper">
-    <section class="score big-label">
+    <section class="score big-label" id="scorewrapper">
         <span class="value"><span id="value">0</span><sup>%</sup></span>
     </section>
     <section class="timer big-label e0">
@@ -69,6 +69,8 @@
             return;
         }
 
+        var finalScore = document.getElementById("scorewrapper");
+        finalScore.className = "score big-label";
         three21();
     }
 
@@ -126,6 +128,8 @@
 
     function showResult() {
         // show the result here?
+        var finalScore = document.getElementById("scorewrapper");
+        finalScore.className += " pause";
 
         setTimeout(function() {
             loadNext();
