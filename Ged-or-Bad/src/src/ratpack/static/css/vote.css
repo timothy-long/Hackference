@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background: #afc1cb;
+    text-align: center;
+    font-family: open sans, arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+}
+h2, h3{
+    color: #1c3b51;
+}
+p{
+    display: block;
+    margin-bottom: 1em;
+}
+p.smallprint{
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 2em;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #1c3b51;
+    color: #fff;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: #afc1cb;
+}
+
