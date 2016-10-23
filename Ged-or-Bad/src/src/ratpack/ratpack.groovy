@@ -17,7 +17,10 @@ ratpack {
         }
     }
     handlers {
-        get {
+        get { ctx ->
+            ctx.redirect(302, "vote")
+        }
+        get("view") {
             render groovyTemplate("view.html")
         }
         get("vote") {
