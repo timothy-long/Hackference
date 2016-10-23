@@ -3,6 +3,13 @@ if(!window.DeviceOrientationEvent || !window.WebSocket)
     alert("This won't work in your browser. Why not try Chrome, or a newer version (if available).");
 }
 
+screen.lockOrientationUniversal = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+
+if (!screen.lockOrientationUniversal || !screen.lockOrientationUniversal("portrait-primary")) {
+  // orientation lock failed
+  alert("We recommend locking the rotation of your screen to portrait for accurate voting.")
+}
+
 function connectWs() {
     if (window.ws && window.ws.readyState == WebSocket.OPEN) {
         return;
