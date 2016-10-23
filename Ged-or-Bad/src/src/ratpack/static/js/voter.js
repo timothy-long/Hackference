@@ -79,5 +79,5 @@ function calibrate() {
         return;
     }
 
-    alphaOffset = lastRecordedData.alpha - alphaOffset + lastRecordedData.alpha;
+    alphaOffset = lastRecordedData.alpha - alphaOffset - lastRecordedData.alpha;
 }
