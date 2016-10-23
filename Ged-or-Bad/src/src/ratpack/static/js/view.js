@@ -65,7 +65,7 @@ function updatePositions(positions) {
     for (var i = 0; i < positions.length; i++) {
         var position = positions[i];
         var record = thumbs[position.uid];
-        console.log(position);
+        //console.log(position);
         if(record == undefined)
         {
             // new
