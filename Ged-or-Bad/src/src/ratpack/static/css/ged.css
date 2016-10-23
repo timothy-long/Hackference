@@ -69,6 +69,20 @@ body{
         .timer.e1 .plural{display: none}
         .timer.e1 .singular{display: block}
 
+.score.pause #value{
+    color: #f00;
+    text-shadow: 3px 4px 0px #fff;
+   
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;    
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.5;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.5;}
+}
+
 
 .frame{
     position: relative;
