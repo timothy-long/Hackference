@@ -49,6 +49,7 @@ connectWs();
 
 var thumbs = {};
 var thumbsSize = 0;
+var pauseScore = false;
 
 var dummyThumb = document.createElement('img');
 dummyThumb.setAttribute('src', '/img/thumbs.png');
@@ -103,30 +104,33 @@ function updatePositions(positions) {
         //record.element.style.transform = 'rotateZ(' + -position.alpha + 'deg) rotateY(' + -position.gamma + 'deg)';
         record.element.style.transform = 'rotateZ(' + -position.alpha + 'deg)';
 
-        // calc score
-        if(position.alpha < 50)
+        if(!pauseScore)
         {
-            score += 1;
-        }
-        else if(position.alpha < 110)
-        {
-            score += 0;
-        }
-        else if(position.alpha < 230)
-        {
-            score -= 1;
-        }
-        else if(position.alpha < 300)
-        {
-            score += 0;
-        }
-        else
-        {
-            score += 1;
+            // calc score
+            if(position.alpha < 50)
+            {
+                score += 1;
+            }
+            else if(position.alpha < 110)
+            {
+                score += 0;
+            }
+            else if(position.alpha < 230)
+            {
+                score -= 1;
+            }
+            else if(position.alpha < 300)
+            {
+                score += 0;
+            }
+            else
+            {
+                score += 1;
+            }
         }
     }
 
-    if(positions.length > 0)
+    if(!pauseScore && positions.length > 0)
     {
         score += positions.length;
         var percentage = Math.floor((100 / (positions.length * 2)) * score);
