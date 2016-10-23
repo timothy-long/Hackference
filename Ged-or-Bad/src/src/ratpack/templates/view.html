@@ -70,6 +70,7 @@
         }
 
         // UNPAUSE THE SCORE
+        pauseScore = false;
         var finalScore = document.getElementById("scorewrapper");
         finalScore.className = "score big-label";
         
@@ -135,6 +136,7 @@
         finalScore.className += " pause";
         
         //PAUSE THE SCORE
+        pauseScore = true;
 
         setTimeout(function() {
             loadNext();
