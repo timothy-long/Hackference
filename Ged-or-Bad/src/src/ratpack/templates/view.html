@@ -69,8 +69,10 @@
             return;
         }
 
+        // UNPAUSE THE SCORE
         var finalScore = document.getElementById("scorewrapper");
         finalScore.className = "score big-label";
+        
         three21();
     }
 
@@ -128,8 +130,11 @@
 
     function showResult() {
         // show the result here?
+        
         var finalScore = document.getElementById("scorewrapper");
         finalScore.className += " pause";
+        
+        //PAUSE THE SCORE
 
         setTimeout(function() {
             loadNext();
