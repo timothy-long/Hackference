@@ -10,6 +10,9 @@ if (!(screen.lockOrientationUniversal && screen.lockOrientationUniversal("portra
   alert("We recommend locking the rotation of your screen to portrait for accurate voting.")
 }
 
+var alphaOffset = 0;
+var lastRecordedData;
+
 function connectWs() {
     if (window.ws && window.ws.readyState == WebSocket.OPEN) {
         return;
@@ -52,13 +55,13 @@ function connectWs() {
             e.alpha += orientation.angle;
         }
 
-        var data = {
-            alpha: e.alpha,
+        lastRecordedData = {
+            alpha: e.alpha + alphaOffset,
             beta: e.beta,
             gamma: e.gamma
         }
 
-        window.ws.send(JSON.stringify(data))
+        window.ws.send(JSON.stringify(lastRecordedData))
     }
 
     window.addEventListener('deviceorientation', onMotionHandler, false);
@@ -66,7 +69,15 @@ function connectWs() {
 
 connectWs();
 
-function getOrientation()
-{
+function getOrientation() {
     return screen.orientation || screen.mozOrientation || screen.msOrientation;
+}
+
+function calibrate() {
+    if(!lastRecordedData)
+    {
+        return;
+    }
+
+    alphaOffset = lastRecordedData.alpha - alphaOffset + lastRecordedData.alpha;
 }
