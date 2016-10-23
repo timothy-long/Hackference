@@ -144,6 +144,5 @@ function removeVoter(uid) {
     }
 
     record.element.parentNode.removeChild(record.element);
-    thumbsSize--;
     delete thumbs[uid];
 }
