@@ -5,7 +5,7 @@ if(!window.DeviceOrientationEvent || !window.WebSocket)
 
 screen.lockOrientationUniversal = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
 
-if (!screen.lockOrientationUniversal || !screen.lockOrientationUniversal("portrait-primary")) {
+if (!(screen.lockOrientationUniversal && screen.lockOrientationUniversal("portrait-primary")) && !(getOrientation() && getOrientation().angle !== undefined)) {
   // orientation lock failed
   alert("We recommend locking the rotation of your screen to portrait for accurate voting.")
 }
@@ -45,6 +45,12 @@ function connectWs() {
         }
 
         //console.log(e.alpha, e.beta, e.gamma);
+        var orientation = getOrientation();
+
+        if(orientation && orientation.angle)
+        {
+            e.alpha += orientation.angle;
+        }
 
         var data = {
             alpha: e.alpha,
@@ -59,3 +65,8 @@ function connectWs() {
 }
 
 connectWs();
+
+function getOrientation()
+{
+    return screen.orientation || screen.mozOrientation || screen.msOrientation;
+}
