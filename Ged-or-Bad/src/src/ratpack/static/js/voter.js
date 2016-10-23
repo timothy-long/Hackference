@@ -56,7 +56,7 @@ function connectWs() {
         }
 
         lastRecordedData = {
-            alpha: e.alpha + alphaOffset,
+            alpha: (e.alpha + alphaOffset) % 360,
             beta: e.beta,
             gamma: e.gamma
         }
