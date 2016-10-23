@@ -36,6 +36,8 @@ function connectWs() {
         }, 1000);
     };
 
+    var submit = false;
+
     var onMotionHandler = function(e) {
         if(window.ws.readyState != WebSocket.OPEN)
         {
@@ -43,6 +45,13 @@ function connectWs() {
         }
 
         if(e.alpha == null && e.beta == null && e.gamma == null)
+        {
+            return;
+        }
+
+        submit = !submit;
+
+        if(!submit)
         {
             return;
         }

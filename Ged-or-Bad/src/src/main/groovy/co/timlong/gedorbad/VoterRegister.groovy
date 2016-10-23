@@ -45,7 +45,7 @@ class VoterRegister implements Service {
     }
 
     private void scheduleNext() {
-        nextFuture = executorService.schedule(this.&run, 25, TimeUnit.MILLISECONDS);
+        nextFuture = executorService.schedule(this.&run, 50, TimeUnit.MILLISECONDS);
     }
 
     private void run() {
