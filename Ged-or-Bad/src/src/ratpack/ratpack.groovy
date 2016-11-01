@@ -9,6 +9,9 @@ import static ratpack.groovy.Groovy.groovyTemplate
 import static ratpack.groovy.Groovy.ratpack
 
 ratpack {
+    serverConfig {
+        env()
+    }
     bindings {
         module TextTemplateModule
         binder { b ->
@@ -17,8 +20,8 @@ ratpack {
         }
     }
     handlers {
-        get { ctx ->
-            ctx.redirect(302, "vote")
+        get {
+            redirect(302, "vote")
         }
         get("view") {
             render groovyTemplate("view.html")
@@ -26,18 +29,13 @@ ratpack {
         get("vote") {
             render groovyTemplate("voter.html")
         }
-        get("stream/voter") { ctx ->
-            def voterRegister = ctx.get(VoterRegister)
-
+        get("stream/voter") { VoterRegister voterRegister ->
             // open receiving socket
-            WebSockets.websocket(ctx, new DeviceOrientationHandler(voterRegister))
+            WebSockets.websocket(context, new DeviceOrientationHandler(voterRegister))
         }
-        get("stream/view") { ctx ->
-            def streamContainer = ctx.get(StreamContainer)
-
+        get("stream/view") { StreamContainer streamContainer ->
             // open broadcast socket
-            def stream = streamContainer.stream
-            WebSockets.websocketBroadcast(ctx, stream)
+            WebSockets.websocketBroadcast(context, streamContainer.stream)
         }
         files {
             dir "static"
