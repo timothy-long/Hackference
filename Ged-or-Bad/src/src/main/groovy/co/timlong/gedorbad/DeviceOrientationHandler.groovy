@@ -1,6 +1,5 @@
 package co.timlong.gedorbad
 
-import com.google.inject.Inject
 import groovy.json.JsonSlurper
 import groovy.util.logging.Slf4j
 import ratpack.websocket.WebSocket
@@ -8,16 +7,12 @@ import ratpack.websocket.WebSocketClose
 import ratpack.websocket.WebSocketHandler
 import ratpack.websocket.WebSocketMessage
 
-/**
- * Created by tim on 22/10/2016.
- */
 @Slf4j
 class DeviceOrientationHandler implements WebSocketHandler<String> {
     private final VoterRegister voterRegister
     private Voter voter
     private JsonSlurper jsonSlurper = new JsonSlurper()
 
-    @Inject
     DeviceOrientationHandler(VoterRegister voterRegister)
     {
         this.voterRegister = voterRegister

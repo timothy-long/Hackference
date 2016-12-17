@@ -23,20 +23,26 @@ ratpack {
         get {
             redirect(302, "vote")
         }
+
         get("view") {
             render groovyTemplate("view.html")
         }
+
         get("vote") {
             render groovyTemplate("voter.html")
         }
-        get("stream/voter") { VoterRegister voterRegister ->
-            // open receiving socket
-            WebSockets.websocket(context, new DeviceOrientationHandler(voterRegister))
+
+        prefix("stream") {
+            get("voter") { VoterRegister voterRegister ->
+                // open receiving socket
+                WebSockets.websocket(context, new DeviceOrientationHandler(voterRegister))
+            }
+            get("view") { StreamContainer streamContainer ->
+                // open broadcast socket
+                WebSockets.websocketBroadcast(context, streamContainer.stream)
+            }
         }
-        get("stream/view") { StreamContainer streamContainer ->
-            // open broadcast socket
-            WebSockets.websocketBroadcast(context, streamContainer.stream)
-        }
+
         files {
             dir "static"
         }
