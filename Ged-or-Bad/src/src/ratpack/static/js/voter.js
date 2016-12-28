@@ -18,7 +18,7 @@ function connectWs() {
         return;
     }
 
-    window.ws = new WebSocket("ws://"+location.host+"/stream/voter");
+    window.ws = new WebSocket("wss://"+location.host+"/stream/voter");
 
     window.ws.onopen = function(event) {
         console.log("WebSocket opened!", event);

@@ -8,7 +8,7 @@ function connectWs() {
         return;
     }
 
-    window.ws = new WebSocket("ws://"+location.host+"/stream/view");
+    window.ws = new WebSocket("wss://"+location.host+"/stream/view");
 
     window.ws.onopen = function(event) {
         console.log("WebSocket opened!", event);
