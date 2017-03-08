@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+}
+body{
+    background: #afc1cb;
+    text-align: center;
+    font-family: open sans, arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+}
+.title{
+    width: 100%;
+    margin-top: 10%;
+    font-size: 3em;
+    color: #fff;
+    z-index: 10;
+    text-align: center;
+    text-shadow: 4px 4px 6px #4e4848;
+    font-family: 'Fredoka One', arial, helvetica, cursive;
+}
+.wrapper{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    min-width: 300px  ;
+    background: no-repeat  rgba(255,255,255,0.5);
+    background-size: cover;
+    overflow: hidden;
+    padding: 5px 7px;
+    z-index: 2;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #1c3b51;
+    color: #fff;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: #afc1cb;
+}
+
