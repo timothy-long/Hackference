@@ -38,6 +38,15 @@ body{
         left: 12%;
         transform: rotate(-15deg);
     }
+    .code{
+        text-align: center;
+        width: 100%;
+        top: 5%;
+    }
+        .code .value{
+            font-size: 3em;
+            line-height: 1em;
+        }
     .timer{
         right: 10%;
         transform: rotate(10deg);

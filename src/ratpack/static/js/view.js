@@ -155,5 +155,5 @@ function removeVoter(uid) {
 }
 
 function updateRoomDetails(message) {
-    alert("Room code: " + message.uid);
+    document.getElementById('roomcode').innerHTML = message.uid;
 }
