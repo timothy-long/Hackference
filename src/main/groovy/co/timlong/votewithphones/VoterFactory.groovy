@@ -1,4 +1,4 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
 /**
  * Created by Tim on 04/03/2017.

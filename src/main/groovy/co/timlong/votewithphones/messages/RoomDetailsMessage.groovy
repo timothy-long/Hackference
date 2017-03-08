@@ -1,7 +1,7 @@
-package co.timlong.gedorbad.messages
+package co.timlong.votewithphones.messages
 
-import co.timlong.gedorbad.Message
-import co.timlong.gedorbad.Room
+import co.timlong.votewithphones.Message
+import co.timlong.votewithphones.Room
 
 /**
  * Created by Tim on 05/03/2017.

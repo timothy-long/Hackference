@@ -1,4 +1,4 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
 import ratpack.websocket.WebSocket
 import ratpack.websocket.WebSocketClose

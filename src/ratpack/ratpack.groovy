@@ -1,7 +1,7 @@
-import co.timlong.gedorbad.Room
-import co.timlong.gedorbad.RoomFactory
-import co.timlong.gedorbad.RoomRegistry
-import co.timlong.gedorbad.VoterFactory
+import co.timlong.votewithphones.Room
+import co.timlong.votewithphones.RoomFactory
+import co.timlong.votewithphones.RoomRegistry
+import co.timlong.votewithphones.VoterFactory
 import com.google.inject.Scopes
 import ratpack.groovy.template.TextTemplateModule
 import ratpack.websocket.WebSockets

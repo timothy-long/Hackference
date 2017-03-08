@@ -3,6 +3,6 @@ build/
 .DS_Store
 ._*
 *~
-**/.idea/workspace.xml
-**/.idea/tasks.xml
-**/.idea/libraries/**
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/**

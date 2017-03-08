@@ -1,6 +1,6 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
-import co.timlong.gedorbad.messages.VoterPositionsMessage
+import co.timlong.votewithphones.messages.VoterPositionsMessage
 
 import java.util.concurrent.ConcurrentHashMap
 

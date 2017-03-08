@@ -1,6 +1,6 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
-import co.timlong.gedorbad.messages.RoomDetailsMessage
+import co.timlong.votewithphones.messages.RoomDetailsMessage
 import ratpack.exec.ExecController
 import ratpack.websocket.WebSocket
 import ratpack.websocket.WebSocketClose

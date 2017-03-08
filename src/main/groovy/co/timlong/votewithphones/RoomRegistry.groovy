@@ -1,4 +1,4 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
 import org.apache.commons.lang3.RandomStringUtils
 import ratpack.service.Service

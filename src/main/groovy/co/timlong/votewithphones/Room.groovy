@@ -1,6 +1,6 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
-import co.timlong.gedorbad.messages.RoomClosedMessage
+import co.timlong.votewithphones.messages.RoomClosedMessage
 
 /**
  * Created by Tim on 04/03/2017.

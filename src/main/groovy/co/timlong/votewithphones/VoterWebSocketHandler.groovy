@@ -1,6 +1,6 @@
-package co.timlong.gedorbad
+package co.timlong.votewithphones
 
-import co.timlong.gedorbad.messages.VoterRemovedMessage
+import co.timlong.votewithphones.messages.VoterRemovedMessage
 import groovy.json.JsonSlurper
 import ratpack.websocket.WebSocketClose
 import ratpack.websocket.WebSocketMessage
