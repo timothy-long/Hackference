@@ -1,2 +1,2 @@
-# hackference
+# Vote With Phones
 Hacking at Hackference

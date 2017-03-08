@@ -8,7 +8,7 @@ function connectWs() {
         return;
     }
 
-    window.ws = new WebSocket("wss://"+location.host+"/stream/view");
+    window.ws = new WebSocket((location.protocol == "http:" ? "ws://" : "wss://")+location.host+"/view/socket");
 
     window.ws.onopen = function(event) {
         console.log("WebSocket opened!", event);
@@ -23,6 +23,9 @@ function connectWs() {
 
         switch(message.type)
         {
+            case 'room-details':
+                updateRoomDetails(message);
+                break;
             case 'voter-positions':
                 updatePositions(message.positions);
                 break;
@@ -65,7 +68,7 @@ function updatePositions(positions) {
     for (var i = 0; i < positions.length; i++) {
         var position = positions[i];
         var record = thumbs[position.uid];
-        //console.log(position);
+
         if(record == undefined)
         {
             // new
@@ -149,4 +152,8 @@ function removeVoter(uid) {
 
     record.element.parentNode.removeChild(record.element);
     delete thumbs[uid];
+}
+
+function updateRoomDetails(message) {
+    alert("Room code: " + message.uid);
 }

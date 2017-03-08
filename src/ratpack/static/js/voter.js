@@ -12,13 +12,14 @@ if (!(screen.lockOrientationUniversal && screen.lockOrientationUniversal("portra
 
 var alphaOffset = 0;
 var lastRecordedData;
+var roomUid = document.getElementsByTagName('body')[0].dataset.roomUid;
 
 function connectWs() {
     if (window.ws && window.ws.readyState == WebSocket.OPEN) {
         return;
     }
 
-    window.ws = new WebSocket("wss://"+location.host+"/stream/voter");
+    window.ws = new WebSocket((location.protocol == "http:" ? "ws://" : "wss://")+location.host+"/vote/"+roomUid+"/socket");
 
     window.ws.onopen = function(event) {
         console.log("WebSocket opened!", event);

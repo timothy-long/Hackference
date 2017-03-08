@@ -1,36 +1,34 @@
 package co.timlong.gedorbad
 
+import co.timlong.gedorbad.messages.VoterRemovedMessage
 import groovy.json.JsonSlurper
-import groovy.util.logging.Slf4j
-import ratpack.websocket.WebSocket
 import ratpack.websocket.WebSocketClose
-import ratpack.websocket.WebSocketHandler
 import ratpack.websocket.WebSocketMessage
 
-@Slf4j
-class DeviceOrientationHandler implements WebSocketHandler<String> {
-    private final VoterRegister voterRegister
+/**
+ * Created by Tim on 04/03/2017.
+ */
+class VoterWebSocketHandler extends WebSocketMessageHandler {
+    private VoterRegister voterRegister
     private Voter voter
     private JsonSlurper jsonSlurper = new JsonSlurper()
 
-    DeviceOrientationHandler(VoterRegister voterRegister)
-    {
+    VoterWebSocketHandler(VoterRegister voterRegister, Voter voter) {
         this.voterRegister = voterRegister
-    }
-
-    @Override
-    String onOpen(WebSocket webSocket) throws Exception {
-        voter = voterRegister.registerVoter(webSocket)
-        return null
+        this.voter = voter
     }
 
     @Override
     void onClose(WebSocketClose<String> close) throws Exception {
-        voterRegister.unregisterVoter(voter)
+        voterRegister.remove(voter)
+
+        def message = new VoterRemovedMessage()
+        message.uid = voter.uid
+        voter.room.socketHandler.send(message)
     }
 
     @Override
-    void onMessage(WebSocketMessage<String> frame) throws Exception {
+    void onMessage(WebSocketMessage<String> frame) throws Exception{
         def message = jsonSlurper.parseText(frame.text)
 
         if(message.alpha != null)

@@ -13,6 +13,7 @@
     <orderEntry type="module" module-name="Vote_With_Phones_main" />
     <orderEntry type="library" name="Gradle: io.ratpack:ratpack-core:1.4.4" level="project" />
     <orderEntry type="library" name="Gradle: io.ratpack:ratpack-groovy:1.4.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
     <orderEntry type="library" name="Gradle: io.ratpack:ratpack-test:1.4.4" level="project" />
     <orderEntry type="library" name="Gradle: io.ratpack:ratpack-groovy-test:1.4.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-simple:1.7.21" level="project" />

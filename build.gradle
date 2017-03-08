@@ -16,4 +16,5 @@ repositories {
 
 dependencies {
     runtime "org.slf4j:slf4j-simple:1.7.21"
+    compile 'org.apache.commons:commons-lang3:3.5'
 }
