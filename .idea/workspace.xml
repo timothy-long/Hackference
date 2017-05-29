@@ -4,24 +4,42 @@
     <bookmark url="file://$PROJECT_DIR$/src/ratpack/static/js/index.js" line="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38417c92-88cc-435f-9827-b642743018bf" name="Default" comment="">
+    <list default="true" id="38417c92-88cc-435f-9827-b642743018bf" name="Default" comment="Repackaged from &quot;gedorbad&quot; -&gt; &quot;votewithphones&quot;">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ben_manes_caffeine_caffeine_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_inject_extensions_guice_multibindings_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_inject_guice_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_19_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" afterPath="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Message.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Room.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Room.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomFactory.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomFactory.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomRegistry.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomRegistry.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomWebSocketHandler.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomWebSocketHandler.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Voter.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Voter.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterFactory.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterFactory.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterRegister.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterRegister.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterWebSocketHandler.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterWebSocketHandler.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/WebSocketMessageHandler.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/WebSocketMessageHandler.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/RoomClosedMessage.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/messages/RoomClosedMessage.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/RoomDetailsMessage.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/messages/RoomDetailsMessage.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterPositionsMessage.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/messages/VoterPositionsMessage.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterRemovedMessage.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/messages/VoterRemovedMessage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Vote_With_Phones_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Vote_With_Phones_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Vote_With_Phones_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Vote_With_Phones_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="Ged or Bad.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,51 +158,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="voter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
+      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VoterWebSocketHandler.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterWebSocketHandler.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Message.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Room.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomWebSocketHandler.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomWebSocketHandler.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state relative-caret-position="3255">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -193,8 +171,8 @@
       <file leaf-file-name="ratpack.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -205,8 +183,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,28 +193,18 @@
       <file leaf-file-name="RoomRegistry.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomRegistry.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="294">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomFactory.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomFactory.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="252">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -486,7 +454,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2977210023476" />
+        <entry key="$PROJECT_DIR$" value="4473229187991" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2881493229" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -501,8 +470,8 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-gradle/1.4.4/20da26ddfe2e2e3ce088988dc2674704845f85ae/ratpack-gradle-1.4.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-gradle/1.4.4/ad954815e8a3018d39431f7d627491010251345a/ratpack-gradle-1.4.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-gradle/1.4.5/6337964669441066fb8623acf717e4deca69f539/ratpack-gradle-1.4.5-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-gradle/1.4.5/20772163963bc2947b918e965e112fb7cd3666/ratpack-gradle-1.4.5.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -649,14 +618,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ratpack/templates/view.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomViewPublisher.java" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterFactory.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/WebSocketHandler.groovy" />
         <option value="$PROJECT_DIR$/src/ratpack/static/js/voter.js" />
@@ -672,23 +638,28 @@
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/RoomClosedMessage.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/Message.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/VoterFactory.groovy" />
-        <option value="$PROJECT_DIR$/src/ratpack/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/RoomDetailsMessage.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomWebSocketHandler.groovy" />
-        <option value="$PROJECT_DIR$/src/ratpack/static/js/view.js" />
         <option value="$PROJECT_DIR$/src/ratpack/static/js/index.js" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomRegistry.groovy" />
-        <option value="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomFactory.groovy" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/ratpack/templates/view.html" />
+        <option value="$PROJECT_DIR$/src/ratpack/static/css/ged.css" />
+        <option value="$PROJECT_DIR$/src/ratpack/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/ratpack/static/css/index.css" />
+        <option value="$PROJECT_DIR$/src/ratpack/static/js/view.js" />
+        <option value="$PROJECT_DIR$/src/ratpack/ratpack.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="840" />
-    <option name="width" value="1945" />
-    <option name="height" value="1253" />
+    <option name="x" value="64" />
+    <option name="y" value="873" />
+    <option name="width" value="2074" />
+    <option name="height" value="1224" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -706,7 +677,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -732,10 +702,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratpack" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -747,76 +713,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratpack" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vote With Phones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoteWithPhones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratpack" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vote With Phones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VoteWithPhones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="votewithphones" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Tim\Developer\VoteWithPhones\src\ratpack\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Gradle.VoteWithPhones [run]">
     <configuration default="false" name="VoteWithPhones [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -1126,12 +1054,32 @@
       <option name="project" value="LOCAL" />
       <updated>1489010982504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Repackaged from &quot;gedorbad&quot; -&gt; &quot;votewithphones&quot;">
+      <created>1489011131161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489011131161</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added room code to view">
+      <created>1489011913260</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489011913260</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tidied the index page (slightly)">
+      <created>1489012565304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489012565304</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="840" width="1945" height="1253" extended-state="0" />
-    <editor active="false" />
+    <frame x="64" y="873" width="2074" height="1224" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1141,20 +1089,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31184834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30896688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27447832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2947948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1163,6 +1111,32 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1179,7 +1153,10 @@
     <MESSAGE value="Renamed project from &quot;Ged or Bad&quot; to &quot;Vote With Phones&quot;." />
     <MESSAGE value="Added favicon.&#10;Removed unused test.css.&#10;Updated .idea/.name." />
     <MESSAGE value="Refactored server to add support for &quot;rooms&quot; - allowing multiple voting sessions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored server to add support for &quot;rooms&quot; - allowing multiple voting sessions." />
+    <MESSAGE value="Repackaged from &quot;gedorbad&quot; -&gt; &quot;votewithphones&quot;" />
+    <MESSAGE value="Added room code to view" />
+    <MESSAGE value="Tidied the index page (slightly)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tidied the index page (slightly)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,22 +1169,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/voter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/DeviceOrientationHandler.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterRegister.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
-          <folding>
-            <element signature="e#35#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,13 +1203,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/RoomViewPublisher.java" />
     <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/StreamContainer.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/gedorbad/messages/VoterPositionMessage.groovy" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-core/1.4.4/9f7852c690bb1e385f9b168905055c52c7967d9b/ratpack-core-1.4.4-sources.jar!/ratpack/websocket/WebSocketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1257,13 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/voter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="21" column="112" lean-forward="false" selection-start-line="21" selection-start-column="112" selection-end-line="21" selection-end-column="112" />
         </state>
       </provider>
     </entry>
@@ -1351,13 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3825">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/static/img/desktop-bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1383,11 +1328,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/view.js">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterFactory.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3322">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterRegister.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterWebSocketHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomWebSocketHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomFactory.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Message.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Room.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="9" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -1399,92 +1413,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterFactory.groovy">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/css/ged.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterRegister.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="e#35#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="107" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="159">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/view.html">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="146" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="527">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ratpack/templates/voter.html">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/voter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="535">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/VoterWebSocketHandler.groovy">
+    <entry file="file://$PROJECT_DIR$/src/ratpack/static/js/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomWebSocketHandler.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomRegistry.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomFactory.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="3255">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ratpack/ratpack.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        <state relative-caret-position="189">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -1493,24 +1461,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Message.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/RoomRegistry.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="294">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/co/timlong/votewithphones/Room.groovy">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="252">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
