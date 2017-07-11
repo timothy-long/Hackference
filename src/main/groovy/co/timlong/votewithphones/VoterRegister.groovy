@@ -1,29 +1,37 @@
 package co.timlong.votewithphones
 
 import co.timlong.votewithphones.messages.VoterPositionsMessage
+import com.google.common.cache.Cache
+import com.google.common.cache.CacheBuilder
 
-import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.TimeUnit
 
 /**
  * Created by tim on 22/10/2016.
  */
 class VoterRegister {
-    def voters = new ConcurrentHashMap<Voter, Boolean>()
+    private final Cache<Voter, Boolean> voters = CacheBuilder.newBuilder()
+            .expireAfterAccess(2, TimeUnit.HOURS)
+            .build()
 
     void register(Voter voter) {
         voters.put(voter, Boolean.TRUE)
     }
 
     void remove(Voter voter) {
-        voters.remove(voter)
+        voters.invalidate(voter)
     }
 
     VoterPositionsMessage getVoterPositionsMessage()
     {
         def message = new VoterPositionsMessage()
 
-        voters.forEachKey(Long.MAX_VALUE, message.&add)
+        voters.asMap().keySet().forEach(message.&add)
 
         message
+    }
+
+    Set<Voter> getVoters() {
+        voters.asMap().keySet()
     }
 }

@@ -11,13 +11,13 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Vote_With_Phones_main" />
-    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-core:1.4.5" level="project" />
-    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-groovy:1.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-core:1.4.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-groovy:1.4.6" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
-    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-test:1.4.5" level="project" />
-    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-groovy-test:1.4.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-simple:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-test:1.4.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-groovy-test:1.4.6" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.6.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-simple:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.6.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.6.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
@@ -32,7 +32,7 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.7.5" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.7.5" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.4.3" level="project" />
-    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-guice:1.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ratpack:ratpack-guice:1.4.6" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.6.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.6.Final" level="project" />

@@ -20,6 +20,6 @@ class Room {
 
     void close() {
         RoomClosedMessage message = new RoomClosedMessage()
-        voters.voters.forEachKey(20, {v -> v.socketHandler.send(message)})
+        voters.voters.parallelStream().forEach({v -> v.socketHandler.send(message)})
     }
 }
