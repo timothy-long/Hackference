@@ -28,9 +28,16 @@ body{
     background: no-repeat  rgba(255,255,255,0.5);
     background-size: cover;
     overflow: hidden;
-    padding: 5px 7px;
+    padding: 20px 20px;
+    margin-top: 50px;
     z-index: 2;
 }
+    .join-room form {
+        margin-top: 10px;
+    }
+    .create-room {
+        margin-top: 20px;
+    }
 footer {
     position: absolute;
     bottom: 0;
