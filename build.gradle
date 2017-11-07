@@ -3,18 +3,20 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "io.ratpack:ratpack-gradle:1.4.6"
+        classpath 'io.ratpack:ratpack-gradle:1.4.6'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
     }
 }
 
-apply plugin: "io.ratpack.ratpack-groovy"
-apply plugin: "idea"
+apply plugin: 'io.ratpack.ratpack-groovy'
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'idea'
 
 repositories {
     jcenter()
 }
 
 dependencies {
-    runtime "org.slf4j:slf4j-simple:1.7.25"
+    runtime 'org.slf4j:slf4j-simple:1.7.25'
     compile 'org.apache.commons:commons-text:1.1'
 }
